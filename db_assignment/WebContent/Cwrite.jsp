@@ -16,7 +16,7 @@
 
 	Connection con = null;
 	PreparedStatement pstmt = null;
-	String url = "jdbc:oracle:thin:@172.1.20.46:1521:ORCL";
+	String url = "jdbc:oracle:thin:@172.30.1.46:1521:ORCL";
 	String user = "scott";
 	String pw = "tiger";
 	String sql="insert into comments(seq, name, pass, content) values ((select max(seq)+1 from comments), ?, ?, ?)";
