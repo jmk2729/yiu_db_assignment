@@ -8,6 +8,7 @@
 </head>
 <body>
 <form action="Cwrite.jsp" method="post">
+<h3>글작성</h3>
 이름 : <input type="text" size="20" name="name" /><br />
 비번 : <input type="password" size="20" name="pass" /><br />
 소감 : <input type="text" size="20" name="content" /><br />
